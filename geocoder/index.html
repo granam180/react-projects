@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title>react-map-gl Geocoder</title>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700;800&family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.2/mapbox-gl-geocoder.css" type="text/css">
+        <style>
+          body {
+            margin: 0;
+            font-family: Poppins, sans-serif;
+          }
+          #map {
+            width: 100vw;
+            height: 100vh;
+          }
+          .control-panel {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 320px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            padding: 12px 24px;
+            margin: 20px;
+            font-size: 13px;
+            line-height: 2;
+            color: #6b6b76;
+            text-transform: uppercase;
+            outline: none;
+          }
+    
+          .control-panel .source-link {
+            font-family: Poppins, Arial, sans-serif;
+          }
+    
+          .mapboxgl-ctrl-geocoder--suggestion-title {
+            font-family: Cedarville Cursive , cursive;
+            font-size: 1.3em;
+          }
+    
+          .mapboxgl-ctrl-geocoder--suggestion-address {
+            font-weight: 700;
+            letter-spacing: 1px;
+          }
+    
+          .mapboxgl-ctrl-geocoder {min-width: 25vw;}
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src='app.js'></script>
+  </body>
+  <script type="text/javascript">
+    App.renderToDom(document.getElementById('map'));
+  </script>
+</html>
