@@ -1,0 +1,487 @@
+{
+    "portfolio": [
+        {
+            "id": 1,
+            "url": "https://joeybonneville.com/app/img/projects/web/oldpage.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/oldpage.png",
+            "skills": [
+                "Web",
+                "Graphics"
+            ],
+            "slug": "first-porfolio-website",
+            "title": "Flash Portfolio Site - 1999",
+            "desc": "First website all animated in Flash - 1999"
+        },
+        {
+            "id": 2,
+            "slug": "twinsounds-aboutus",
+            "title": "Twin Sounds Demo - About Us",
+            "desc": "Built a Wix site demo for local Music Studio - About Us Page",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/web/twin_sounds_about.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/twin_sounds_about.png"
+        },
+        {
+            "id": 3,
+            "slug": "twinsounds-page",
+            "title": "Twin Sounds Demo",
+            "desc": "Built a Wix site demo for local Music Studio - Landing Page",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/web/twin_sounds.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/twin_sounds.png"
+        },
+        {
+            "id": 14,
+            "slug": "header-logo",
+            "title": "Portfolio Website Logo",
+            "desc": "Legacy brand identity",
+            "skills": [
+                "Graphics",
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/graphics/header_logo.jpg",
+            "cover": "https://joeybonneville.com/app/img/projects/graphics/header_logo.jpg"
+        },
+        {
+            "id": 31,
+            "slug": "petals-menu-page",
+            "title": "Web Design Project - Petals Menu Page",
+            "desc": "Web Design Template - school project for web business",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "School",
+            "url": "https://joeybonneville.com/app/img/projects/web/petals_menu.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/petals_menu.png"
+        },
+        {
+            "id": 32,
+            "slug": "bootstrap-template",
+            "title": "bootstrapHTML",
+            "desc": "Example using Bootstrap 4 from valet site demo</a>",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/code/bootstrapHTML.png",
+            "cover": "https://joeybonneville.com/app/img/projects/code/bootstrapHTML.png"
+        },
+        {
+            "id": 34,
+            "slug": "angular-directive",
+            "title": "Angular Directive Code",
+            "desc": "Angular Directive used in Mortgage Reviews app demo",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Mortgage",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/code/directive.jpg",
+            "cover": "https://joeybonneville.com/app/img/projects/code/directive.jpg"
+        },
+        {
+            "id": 38,
+            "slug": "php",
+            "title": "php",
+            "desc": "PHP demo app built to randomize user selection based on age.",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "cover": "https://joeybonneville.com/app/img/projects/code/years_counterPHP.png",
+            "url": "http://joeybonneville.com/app/years-counter/"
+        },
+        {
+            "id": 39,
+            "slug": "modal-design-edit",
+            "title": "Petsmart Edit In Cart Modal design",
+            "desc": "Updates to CSS styles for Petsmart Shopping Cart Modal component",
+            "skills": [
+                "Web"
+            ],
+            "industry": "eCommerce",
+            "agency": "Ebay",
+            "url": "https://joeybonneville.com/app/img/projects/web/editincart.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/editincart.png"
+        },
+        {
+            "id": 40,
+            "slug": "gift-card-modal",
+            "title": "Petsmart Gift Card Modal Design",
+            "desc": "Updates to CSS styles for design for Petsmart Gift Card Modal component",
+            "skills": [
+                "Web"
+            ],
+            "industry": "eCommerce",
+            "agency": "Ebay",
+            "url": "https://joeybonneville.com/app/img/projects/web/gcmodal.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/gcmodal.png"
+        },
+        {
+            "id": 41,
+            "slug": "ispu-directions",
+            "title": "Petsmart In-Store Pickup Design",
+            "desc": "Completed CSS redesign for Petsmart In Store Pickup Directions",
+            "skills": [
+                "Web"
+            ],
+            "industry": "eCommerce",
+            "agency": "Ebay",
+            "url": "https://joeybonneville.com/app/img/projects/web/ispu_directions.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/ispu_directions.png"
+        },
+        {
+            "id": 42,
+            "slug": "order-details-page",
+            "title": "Petsmart Order Page Design",
+            "desc": "Worked on CMS styles for Petsmart Order Details page",
+            "skills": [
+                "Web"
+            ],
+            "industry": "eCommerce",
+            "agency": "Ebay",
+            "url": "https://joeybonneville.com/app/img/projects/web/order_details.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/order_details.png"
+        },
+        {
+            "id": 44,
+            "slug": "pets-page-2015",
+            "title": "Petsmart Redesign in 2015",
+            "desc": "Petsmart (2015) look from Web Archive after redesign.",
+            "skills": [
+                "Web"
+            ],
+            "industry": "eCommerce",
+            "agency": "Ebay",
+            "url": "https://joeybonneville.com/app/img/projects/web/pets_landing15.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/pets_landing15.png"
+        },        
+        {
+            "id": 43,
+            "slug": "pets-page-2013",
+            "title": "Petsmart Landing Page in 2013",
+            "desc": "Legacy (2013) Petsmart site before redesign. Worked on LESS/CSS styles, creating page components and variants to items and taxonomy",
+            "skills": [
+                "Web"
+            ],
+            "industry": "eCommerce",
+            "agency": "Ebay",
+            "url": "https://joeybonneville.com/app/img/projects/web/pets_landing13.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/pets_landing13.png"
+        },
+        {
+            "id": 45,
+            "slug": "business-template-bw",
+            "title": "Business Template Design - Black & White",
+            "desc": "Photoshop business template in black and white created for Curotech internship project",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/web/restructured.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/restructured.png"
+        },
+        {
+            "id": 46,
+            "slug": "business-template-color",
+            "title": "Business Template Design - Color",
+            "desc": "Photoshop business template in color created for Curotech internship project",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/web/restructured_color.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/restructured_color.png"
+        },
+        {
+            "id": 47,
+            "slug": "angularjs-reviews-code",
+            "title": "Reviews Admin Dashboard code",
+            "desc": "Raw code for reviews app built in Angularjs for organizing Mortgage reviews. Custom style tables for responsive view",
+            "skills": [
+                "Web",
+                "Code"
+            ],
+            "industry": "Mortgage",
+            "agency": "Freedom Mortgage",
+            "url": "https://joeybonneville.com/app/img/projects/code/angular_template.png",
+            "cover": "https://joeybonneville.com/app/img/projects/code/angular_template.png"
+        },
+        {
+            "id": 48,
+            "slug": "reviews-admin",
+            "title": "Reviews Administration Template - Angularjs",
+            "desc": "Reviews admin-style app built in Angularjs, filter by ratings and scope keyword search and Bootstrap Pagination built in. Raw Excel Spreadsheet converted from CSV to JSON format to make the process of filling in HTML tags more dyanmic (not used in production)",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Mortgage",
+            "agency": "Freedom Mortgage",
+            "cover": "https://joeybonneville.com/app/img/projects/web/reviews.jpg",
+            "url": "https://granam180.github.io/my-sites/reviews02/index.html"
+        },
+        {
+            "id": 50,
+            "slug": "testimonials-modal",
+            "title": "Testimonials Modal Design",
+            "desc": "Testimonial modal design for Mortgage Loan Origination website",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Mortgage",
+            "agency": "Freedom Mortgage",
+            "url": "https://joeybonneville.com/app/img/projects/web/testimonials_modal.png",
+            "cover": "https://joeybonneville.com/app/img/projects/web/testimonials_modal.png"
+        },
+        {
+            "id": 54,
+            "slug": "valet-site",
+            "title": "Valet Website Demo",
+            "desc": "Website Demo for local Philadelphia Valet Service, focused on Google Map navigational support.",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "cover": "https://joeybonneville.com/app/img/projects/web/valet-2.jpg",
+            "url": "https://granam180.github.io/my-sites/valet-site-b4"
+        },
+        {
+            "id": 55,
+            "slug": "reviews-style-markup",
+            "title": "Reviews Page - Dynamic Markup",
+            "desc": "Reviews app built in Angularjs, filter by ratings and scope keyword search and built in. Raw Excel Spreadsheet converted from CSV to JSON format to dyanmically generate HTML markup (not used in production)",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Mortgage",
+            "agency": "Freedom Mortgage",
+            "cover": "https://joeybonneville.com/app/img/projects/web/reviews_markup.jpg",
+            "url": "https://granam180.github.io/my-sites/review-styles/"
+        },
+        {
+            "id": 58,
+            "slug": "afterfly-old-site",
+            "title": "Afterfly Website (old)",
+            "desc": "Afterfly event (legacy) website landing page built with Wordpress template",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/web/afterfly_old.jpg",
+            "cover": "https://joeybonneville.com/app/img/projects/web/afterfly_old.jpg"
+        },
+        {
+            "id": 59,
+            "slug": "afterfly-custom-site",
+            "title": "Afterfly Website (custom)",
+            "desc": "Afterfly website after redesign. Completely custom code &amp; design by Bonneville Design",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "cover": "https://joeybonneville.com/app/img/projects/web/afterfly_new.jpg",
+            "url": "http://www.joeybonneville.com/demos/afterfly/site/index.html"
+        },
+        {
+            "id": 60,
+            "slug": "afterfly-new-site",
+            "title": "Afterfly website (current)",
+            "desc": "Afterfly.me website on Squarespace platform with parallax theme. Custom countdown counter inlcluded on top right using jQuery",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "cover": "https://joeybonneville.com/app/img/projects/web/afterflyme.jpg",
+            "url": "https://www.afterfly.me/"
+        },
+        {
+            "id": 61,
+            "slug": "time-of-day",
+            "title": "Custom Date Function",
+            "desc": "Time of day function created on the landing page of my portfolio for a personal greeting depending on the hour the user is visiting the page",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/code/tod.jpg",
+            "cover": "https://joeybonneville.com/app/img/projects/code/tod.jpg"
+        },
+        {
+            "id": 62,
+            "slug": "portfolio-site",
+            "title": "Angular Portfolio Website",
+            "desc": "New portfolio site built in Angularjs &amp; Sass. Functionality on Projects page to filter based on industry/skill displaying Web Development and Design skill set. All changes to content made in JSON file, not in HTML files.",
+            "skills": [
+                "Web"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "cover": "https://joeybonneville.com/app/img/projects/web/portfolio.jpg",
+            "url": "http://joeybonneville.com/app/#/projects"
+        },
+        {
+            "id": 63,
+            "slug": "lo-template",
+            "title": "Loan Officer Template",
+            "desc": "Bootstrap template used for Mortgage Loan Officer webpages.",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Mortgage",
+            "agency": "Freedom Mortgage",
+            "url": "https://joeybonneville.com/app/img/projects/code/FreedomTemplate.png",
+            "cover": "https://joeybonneville.com/app/img/projects/code/FreedomTemplate.png"
+        },
+        {
+            "id": 64,
+            "slug": "custom-slider",
+            "title": "Custom Video Slider Plugin",
+            "desc": "Created a custom video slider plugin for Wordpress similar to to cut down on load time and optimal performance. Built with current Foundation mobile framework using Orbit carousel &amp; Vimeo API",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "NextLevel",
+            "cover": "https://joeybonneville.com/app/img/projects/code/custom-slider.png",
+            "url": "http://granam180.github.io/my-sites/custom-slider/"
+        },
+        {
+            "id": 65,
+            "slug": "color-game",
+            "title": "Color Game Application",
+            "desc": "Game application built in vanilla Javascript. The user guesses which rgb color is displayed by selecting tiles based on level of difficulty.",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Udemy",
+            "cover": "https://joeybonneville.com/app/img/projects/code/color-game.png",
+            "url": "https://www.joeybonneville.com/demos/color-game/"
+        },
+        {
+            "id": 66,
+            "slug": "todo-list",
+            "title": "ToDo List App",
+            "desc": "Built a CRUD ToDo List using JQuery.",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Udemy",
+            "cover": "https://joeybonneville.com/app/img/projects/code/todo.png",
+            "url": "https://www.joeybonneville.com/demos/todo-list/"
+        },
+        {
+            "id": 67,
+            "slug": "circles",
+            "title": "Circles - Patatap Clone",
+            "desc": "DESKTOP ONLY VERSION! beat-making app build using PaperJs Javascript library. Just hit ANY key on your keyboard to interact.",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Udemy",
+            "cover": "https://joeybonneville.com/app/img/projects/code/circles.png",
+            "url": "https://www.joeybonneville.com/demos/circles/circles.html"
+        },
+        {
+            "id": 72,
+            "slug": "new-site",
+            "title": "Bonneville Artist Development And Design (BADD)",
+            "desc": "New rebrand identity for graphic and web services Bonneville Artist Development And Design",
+            "skills": [
+                "Web",
+                "Graphics"
+            ],
+            "industry": "Freelance",
+            "agency": "Business",
+            "cover": "https://joeybonneville.com/wp-content/uploads/2021/02/live-1-1024x1022.jpg",
+            "url": "https://joeybonneville.com/"
+        },
+        {
+            "id": 74,
+            "slug": "iwco-website",
+            "title": "IWCO Wordpress Site",
+            "desc": "Helped create a Wordpress site using Elementor Pro for page building for an in-demand one-stop-shop print marketing company",
+            "skills": [
+                "Web"
+            ],
+            "industry": "MDG",
+            "agency": "Hospitality",
+            "url": "https://www.iwco.com/",
+            "cover": "https://joeybonneville.com/app/img/projects/web/iwco.png"
+        },        
+        {
+            "id": 75,
+            "slug": "react-map-gl-geocoder",
+            "title": "ReactJS Geocoder",
+            "desc": "Mapbox 'geocode' search functionality built with react-map-gl and custom styling to search",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/mapbox/",
+            "cover": "https://joeybonneville.com/app/img/projects/code/mapbox.png"
+        },
+        {
+            "id": 76,
+            "slug": "my-chatgpt",
+            "title": "BaddGPT",
+            "desc": "Robust OpenAI API - ChatGPT clone built with Next.js 13, Firebase, Google Cloud API, Tailwind CSS, TypeScript and deployed on Vercel. Most proficient in Research & Development to increase workflow and has many uses",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/code/baddgpt.png",
+            "cover": "https://joeybonneville.com/app/img/projects/code/baddgpt.png"
+        },
+        {
+            "id": 77,
+            "slug": "react-weather-app",
+            "title": "3-hour Weather Forecast",
+            "desc": "3-hour weather forecast app built on ReactJS, and utilizing the 'GeoDB Cities' Rapid API & OpenWeather API",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/weather/",
+            "cover": "https://joeybonneville.com/app/img/projects/code/3_hour.png"
+        },
+        {
+            "id": 78,
+            "slug": "react-weather-app-5d",
+            "title": "5-day Weather Forecast",
+            "desc": "5-day weather forecast app built on ReactJS, and utilizing only OpenWeather API",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/weather/5-day",
+            "cover": "https://joeybonneville.com/app/img/projects/code/5_day.png"
+        }
+    ]
+}

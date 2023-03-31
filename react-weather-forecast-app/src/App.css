@@ -1,0 +1,22 @@
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.8vh;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+  /* color: #1F3864; */
+  color: #0B5394;
+}

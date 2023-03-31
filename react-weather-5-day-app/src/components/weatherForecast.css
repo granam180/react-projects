@@ -1,0 +1,91 @@
+.header {
+    font-size: 4vh;
+}
+
+.tagline {
+    font-size: 1.5vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.search-container {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    font-size: 16px;
+    margin-right: 8px;
+    background-color: white;
+    color: black;
+}
+
+.search-button {
+    width: 120px;
+    padding: 10px;
+    background-color: #00bcd4;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: 60px;
+    display: inline-block;
+}
+
+.search-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card,
+.card h3,
+.card p {
+    background-color: #00bcd4;
+    font-weight: bold;
+
+}
+
+
+.card {
+    width: calc(33.33% - 16px);
+    margin: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .search-container {
+        width: 100%;
+    }
+
+    .search-button {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .card {
+        width: 100%;
+        opacity: 0.8;
+    }
+}

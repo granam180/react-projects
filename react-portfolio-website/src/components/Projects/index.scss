@@ -1,0 +1,222 @@
+.container.portfolio-page .text-zone {
+  top: 60px;
+  left: 20px;
+}
+
+.project {
+  margin: 14vh 0 0 25vh;
+  position: relative;
+  height: 83%;
+  overflow: auto;
+  // background-color:#000;
+  & p {
+    color: #b88888;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 75px auto 40px auto;
+    text-align: center;
+    width: 70%;
+  }
+  & .nav.nav-pills {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+  }
+  & .nav.nav-pills .nav-item {
+    width: 33.33333%;
+  }
+  & .nav.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+
+    &::before {  // gradient hover overlay not working...
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 100%;
+      background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd, 111.58%);
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
+
+.nav-link#projects-tabs-tab-first {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 55px 0px 0px 55px;
+  &.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+}
+.nav-link#projects-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  &.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+}
+.nav-link#projects-tabs-tab-third {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0 55px 55px 0;
+  &.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+}
+
+.proj {
+  &-imgbx {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden; // hides the overflow to display border radius
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-radius: 30px;
+    & a {
+      color: #012C43!important;
+      &:hover {
+        color: rgb(0 0 0 / 50%)!important;
+      }
+    }
+
+    &::before {
+      content: '';
+      // background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD, 111.58%);
+      background-color: aliceblue;
+      opacity: 0.85;
+      position: absolute;
+      width: 37vw;
+      height: 0; // HIDES OVERLAY BOX FIRST
+      transition: 0.5s ease-in-out;
+      border-radius: 20px;
+    }
+    &:hover {
+      &::before {
+        height: 100%;
+      }
+      & .proj-txtx {
+        top: 50%;
+        opacity: 1; // show
+      }
+    }
+    & img {
+      width: 37vw;
+      border-radius: 20px;
+    }
+  }
+
+  &-txtx {
+    position: absolute;
+    text-align: center;
+    align-content: middle;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0; // hide
+    width: 75%;
+
+    & h4 {
+      font-size: 25px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      line-height: 1.1em;
+    }
+    & span {
+      font-style: italic;
+      font-weight: 400;
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .project .nav.nav-pills {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+  }
+
+  .project .nav.nav-pills .nav-item {
+    width: 83.33333%;
+  }
+
+  .proj-imgbx img {
+    width: 333px;
+    border-radius: 20px;
+  }
+
+  .nav-link#projects-tabs-tab-first {
+    border: 0;
+    border-radius: 0;
+    &.active {
+      border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+  .nav-link#projects-tabs-tab-second {
+    border-top: 0;
+    border-bottom: 0;
+    &.active {
+      border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+  .nav-link#projects-tabs-tab-third {
+    border: 0;
+    border-radius: 0;
+    &.active {
+      border: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+  .proj-imgbx {
+    margin-bottom: 20px;
+    height: auto;
+    &::before {
+      width: 72vw;
+      height: 0;
+      border-radius: 20px;
+    }
+    & img {
+      width: 72vw;
+    }
+
+    & h4 {
+      font-size: 13px;
+      margin-top: 2vh;
+      top: 0;
+    }
+     & span {
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+      padding: 0 20px 0 20px;
+      width: 100%;
+      font-size: 10px;
+     }
+  }
+}
