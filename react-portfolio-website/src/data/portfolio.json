@@ -382,7 +382,7 @@
             "id": 66,
             "slug": "todo-list",
             "title": "ToDo List App",
-            "desc": "Built a CRUD ToDo List using JQuery.",
+            "desc": "Built a RESTful JQuery ToDo List.",
             "skills": [
                 "Code"
             ],
@@ -441,7 +441,7 @@
             ],
             "industry": "Freelance",
             "agency": "Bonneville Development & Design",
-            "url": "https://joeybonneville.com/mapbox/",
+            "url": "https://joeybonnevillereacts.com/mapbox-v2",
             "cover": "https://joeybonneville.com/app/img/projects/code/mapbox.png"
         },
         {
@@ -461,13 +461,13 @@
             "id": 77,
             "slug": "react-weather-app",
             "title": "3-hour Weather Forecast",
-            "desc": "3-hour weather forecast app built on ReactJS, and utilizing the 'GeoDB Cities' Rapid API & OpenWeather API",
+            "desc": "3-hour weather forecast app based on 'Current Location' built on ReactJS with Context, and utilizing the 'GeoDB Cities' Rapid API & OpenWeather API",
             "skills": [
                 "Code"
             ],
             "industry": "Freelance",
             "agency": "Bonneville Development & Design",
-            "url": "https://joeybonneville.com/weather/",
+            "url": "https://joeybonnevillereacts.com/weather/",
             "cover": "https://joeybonneville.com/app/img/projects/code/3_hour.png"
         },
         {
@@ -480,7 +480,7 @@
             ],
             "industry": "Freelance",
             "agency": "Bonneville Development & Design",
-            "url": "https://joeybonneville.com/weather/5-day",
+            "url": "https://joeybonnevillereacts.com/weather/5-day",
             "cover": "https://joeybonneville.com/app/img/projects/code/5_day.png"
         }
     ]

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import Home from "./home";
 import Login from '../Login';
+import './index.scss';
 
 const Dashboard = () => {
     const [user, setUser] = useState(null);
@@ -16,9 +17,9 @@ const Dashboard = () => {
     return (
         <div>
             {user ? (
-                <div>
-                    <p style={{ color: "whitesmoke", padding: "80px" }}>
-                        You are signed in as {user.email || "unknown user"}
+                <div className="dashboard">
+                    <p className="email">
+                        You are signed in as: {user.email || "unknown user"}
                     </p>
                     <Home />
                 </div>

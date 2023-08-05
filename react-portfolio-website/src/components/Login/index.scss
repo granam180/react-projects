@@ -1,0 +1,52 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: aliceblue;
+    animation: bounceIn;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+    span {
+        color: #ffd700;
+        font-weight: 500;
+        font-size: 7rem;
+        animation: rubberBand 1s;
+    }
+  
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      animation: rubberBand 1s;
+    }
+  
+  
+    .log {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #ffd700;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 5px;
+        border: 1px solid #ffd700;
+        border-radius: 4px;
+        background: 0 0;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 15px;
+  
+      &:hover {
+        background-color: #ffd700;
+        color: #032c43;
+        font-weight: 600;
+      }
+    }
+  }
+  

@@ -1,6 +1,6 @@
-.portfolio-page {
-    padding-left: 100px;
-    padding-right: 50px;
+.container.portfolio-page {
+    // padding-left: 20px;
+    // padding-right: 50px;
     width: calc(100% - 150px);
     position: initial;
     height: 100%;
@@ -11,9 +11,13 @@
         margin-top: 100px;
     }
 
-    p {
-        color: #b88888;
+    blockquote {
+        color: rgb(184,136,136, 0.8);
+        font-weight: 400;
+        font-size: 2em;
         margin: 75px auto 40px auto;
+        text-align: center;
+        font-family: 'La Belle Aurore'!important;
     }
 
     .images-container {
@@ -57,6 +61,7 @@
             margin-bottom: 10px;
             margin-top: 0;
             color: #fff;
+            text-shadow: 1px 1px 2px #444;
             font-size: 24px;
             font-weight: 500;
             line-height: 24px;
@@ -66,6 +71,7 @@
             font-size: 14px;
             margin-bottom: 5px;
             color: #fff;
+            text-shadow: 1px 1px 2px #444;
             font-weight: 700;
         }
 
@@ -117,7 +123,28 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height to match your layout */
+    margin-left: 30px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .loader-container {
+      position: fixed; /* Set to fixed positioning */
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+@media only screen and (max-width: 900px) {
     .container.portfolio-page {
         width: 100%;
         padding: 20px;
@@ -137,9 +164,13 @@
                 font-size: 12px;
             }
         }
+        h1.page-title {
+            margin-left: 20px!important;
+            margin-top: 20px!important;
+          }
+    
+          blockquote {
+            font-weight: 400;
+        }        
     }
-    h1.page-title {
-        margin-left: 20px!important;
-        margin-top: 20px!important;
-      }
 }

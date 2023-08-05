@@ -11,10 +11,10 @@
     margin-left: 20px;
   }
   &-green {
-    color: #C3E88D;
+    color: #c3e88d;
   }
   &-purple {
-    color: #C792EA;
+    color: #c792ea;
   }
 }
 
@@ -52,65 +52,63 @@
   animation-delay: 1s;
 }
 
-.container.contact-page,
-.container.about-page,
+// .container.contact-page,
 .container.portfolio-page,
 .container.skills-page {
-  
-    h1 {
-      font-size: 53px;
-      font-family: 'Coolvetica';
+  h1 {
+    font-size: 53px;
+    font-family: 'Coolvetica';
+    color: #ffd700;
+    font-weight: 400;
+    margin-top: 0;
+    position: relative;
+    margin-bottom: 40px;
+    left: -10px;
+    letter-spacing: 1px;
+
+    &:before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore', cursive;
       color: #ffd700;
-      font-weight: 400;
-      margin-top: 0;
-      position: relative;
-      margin-bottom: 40px;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -10px;
       left: -10px;
-      letter-spacing: 1px;
-
-      &:before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: -10px;
-        left: -10px;
-        opacity: 0.6;
-        line-height: 18px;
-      }
-
-      &:after {
-        content: '<h1/>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
-        font-size: 18px;
-        line-height: 18px;
-        position: absolute;
-        left: -30px;
-        bottom: -20px;
-        margin-left: 20px;
-        opacity: 0.6;
-      }
+      opacity: 0.6;
+      line-height: 18px;
     }
 
-    p {
-      font-size: 13px;
-      color: #fff;
-      font-family: sans-serif;
-      font-weight: 300;
-      max-width: fit-content;
-      animation: pulse 1s;
-      &:nth-of-type(1) {
-        animation-delay: 1.1s;
-      }
-      &:nth-of-type(2) {
-        animation-delay: 1.2s;
-      }
-      &:nth-of-type(3) {
-        animation-delay: 1.3s;
-      }
+    &:after {
+      content: '<h1/>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      line-height: 18px;
+      position: absolute;
+      left: -30px;
+      bottom: -20px;
+      margin-left: 20px;
+      opacity: 0.6;
     }
+  }
+
+  p {
+    font-size: 13px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    max-width: fit-content;
+    animation: pulse 1s;
+    &:nth-of-type(1) {
+      animation-delay: 1.1s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 1.2s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 1.3s;
+    }
+  }
 
   .text-zone {
     position: absolute;
@@ -130,6 +128,14 @@
   }
 }
 
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+  margin-left: 30px;
+}
+
 // .background-image {
 //   opacity: 0.1;
 // }
@@ -144,13 +150,9 @@
     height: auto;
     min-height: auto;
 
-    &.contact-page,
-    &.about-page,
-    &.portfolio-page
-      h1.page-title {
-        margin-left: 20px;
-        margin-top: 20px;
-      }
+    &.portfolio-page h1.page-title {
+      margin: 20px;
+    }
     &.skills-page {
       .text-zone {
         position: initial;
@@ -168,5 +170,18 @@
     width: 100%;
     height: 0%;
     overflow: visible;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .loader-container {
+    position: fixed; /* Set to fixed positioning */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

@@ -5,6 +5,7 @@ import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { addDoc } from 'firebase/firestore'; // DO NOT IMPORT FROM firebase/firestore/lite
 import { collection } from 'firebase/firestore'; // DO NOT IMPORT FROM firebase/firestore/lite
 import { useNavigate } from 'react-router-dom';
+import './index.scss';
 
 // Logged in user page
 
@@ -71,8 +72,9 @@ const Home = () => {
     }
 
     const handleSignOut = () => {
+        // e.preventDefault() // else error 'cannot read property of "name'
         auth.signOut()
-          .then(() => navigate('/login'))  // navigate user to '/login' after sign out is successful
+          .then(() => navigate('/projects'))  // navigate user to '/login' after sign out is successful
           .catch((error) => {
             console.log(error);
           });

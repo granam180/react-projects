@@ -1,9 +1,9 @@
 import { useRef } from 'react'
 // import gsap from 'gsap-trial'
 // import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import LogoS from '../../../assets/images/logo-s.svg'
-// import LogoS from '../../../assets/images/img3.png'
+// import LogoS from '../../../assets/images/logo-s.svg'
 import './index.scss'
+import { Image } from 'react-bootstrap'
 
 const Logo = () => {
   const bgRef = useRef()
@@ -39,10 +39,10 @@ const Logo = () => {
 
   return (
     <div className="logo-container" ref={bgRef}>
-      <img
+      <Image
         className="solid-logo"
         ref={solidLogoRef}
-        src={LogoS}
+        src="https://joeybonneville.com/app/img/logo-s.svg"
         alt="JavaScript,  Developer"
       />
 
